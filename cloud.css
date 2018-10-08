@@ -19,13 +19,12 @@ li {
   display: none;
   border-radius: 30px;
   border: 2px solid black;
-  margin-top: 150px;
 }
 
 
 
 .menu{
-  display: inline-block;
+  display: inline;
   position: fixed;
   margin-bottom: 0px;
 }
@@ -64,14 +63,20 @@ nav>ul {
   padding-right: 150px;
 }
 
-.header{
-  display: block;
+.bande_head{
+
 }
 
 .bande_head{
-  display: block;
   height: 50px;
   background-color: grey;
+  display: flex;
+  column-count: 2;
+  border: 3px solid black;
+}
+#slider_title{
+  height: auto;
+  width: 100%;
 }
 
 .titre{
@@ -83,5 +88,21 @@ nav>ul {
 }
 
 .oui{
-  margin-top: 600px;
+  margin-top: 0px;
+  display: run-in;
+  border-radius: 40px;
+}
+
+#main_page1{
+  background-color: white;
+  column-count: 3;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+#main_page2{
+  background-color: white;
+  column-count: 3;
+  border: 2px solid black;
+  margin-left: 10px;
 }
