@@ -12,9 +12,9 @@ li {
 .main_menu {
   background-image: url("menu_background.jpg");
   background-repeat:repeat-x;
-  background-size: 300px 700px;
-  width: 300px;
-  height: 600px;
+  background-size: 500px 800px;
+  width: 500px;
+  height: 800px;
   position: static;
   display: none;
   border-radius: 30px;
@@ -24,14 +24,16 @@ li {
 
 
 .menu{
-  display: inline;
+  display: flow-root;
   position: fixed;
   margin-bottom: 0px;
+  padding-right: 200px;
 }
 
 .sub_menu{
   display: none;
   position: fixed;
+  text-align: center;
 }
 
 .menu:hover .sub_menu{
@@ -55,28 +57,25 @@ nav>ul {
     margin: 0px;
     padding: 0px;
     position: static;
-    text-align: center;
+    text-align: left;
 }
 
 .menu_initialisation{
-  padding-bottom: 200px;
-  padding-right: 150px;
+  padding-bottom: 210px;
 }
 
-.bande_head{
 
-}
 
 .bande_head{
   height: 50px;
   background-color: grey;
   display: flex;
-  column-count: 2;
   border: 3px solid black;
 }
 #slider_title{
   height: auto;
-  width: 100%;
+  width: 80%;
+  margin-left: 20%;
 }
 
 .titre{
@@ -85,6 +84,7 @@ nav>ul {
   font-weight:bold;
   font-size: 40px;
   margin: auto;
+  padding-right: 30%;
 }
 
 .oui{
@@ -105,4 +105,22 @@ nav>ul {
   column-count: 3;
   border: 2px solid black;
   margin-left: 10px;
+}
+
+.txt_axe{
+  font-size: 50px;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.txt_saxe:link{
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(119, 7, 7);
+}
+
+.txt_saxe:visited{
+  font-size: 40px;
+  text-decoration: underline;
+  color: rgb(71, 23, 187);
 }
