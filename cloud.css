@@ -101,14 +101,6 @@ body{
   text-align: center;
 }
 
-.txt_saxe:link:visited{
-  font-size: 27px;
-  text-decoration: none;
-  color: black;
-  color: rgb(71, 23, 187);
-}
-
-
 .txt_saxe{
   padding-bottom: 10px;
   border: 2px solid grey;
