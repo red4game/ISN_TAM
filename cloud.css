@@ -104,7 +104,11 @@ body{
 .txt_saxe:link:visited{
   font-size: 27px;
   text-decoration: none;
+<<<<<<< HEAD
   color: black;
+=======
+  color: rgb(71, 23, 187;
+>>>>>>> 06b9fc8ccf588bfaea55fe733d397cc0218d3de3
 }
 
 
@@ -133,5 +137,9 @@ body{
 .redir_saxe:hover{
   color: white;
   text-decoration: underline;
+<<<<<<< HEAD
   text: bold;
+=======
+  color: rgb(119, 7, 7);
+>>>>>>> 06b9fc8ccf588bfaea55fe733d397cc0218d3de3
 }
