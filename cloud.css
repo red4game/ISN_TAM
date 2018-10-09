@@ -3,18 +3,14 @@ body{
 }
 
 
-li {
-  font-size: 30px;
-  color: black;
-  padding-bottom: 5px;
-}
+
 
 .main_menu {
   background-image: url("menu_background.jpg");
   background-repeat:repeat-x;
-  background-size: 500px 800px;
-  width: 500px;
-  height: 800px;
+  background-size: 500px 1000px;
+  width: 450px;
+  height: 350px;
   position: static;
   display: none;
   border-radius: 30px;
@@ -26,21 +22,20 @@ li {
 .menu{
   display: flow-root;
   position: fixed;
-  margin-bottom: 0px;
-  padding-right: 200px;
+  padding-bottom: 100px;
 }
 
 .sub_menu{
   display: none;
-  position: fixed;
   text-align: center;
 }
 
 .menu:hover .sub_menu{
-  display: block;
+  display: inline-block;
   padding: 0px 0px;
   overflow: hidden;
-  position: fixed;
+  position: inherit;
+  margin-top: 5px;
 }
 
 #deroulant:hover .main_menu{
@@ -52,16 +47,8 @@ li {
   display: inline;
 }
 
-
-nav>ul {
-    margin: 0px;
-    padding: 0px;
-    position: static;
-    text-align: left;
-}
-
 .menu_initialisation{
-  padding-bottom: 210px;
+  padding-bottom: 20%;
 }
 
 
@@ -108,19 +95,43 @@ nav>ul {
 }
 
 .txt_axe{
-  font-size: 50px;
+  font-size: 30px;
   font-style: normal;
   text-decoration: underline;
+  text-align: center;
 }
 
-.txt_saxe:link{
-  font-size: 40px;
+.txt_saxe:link:visited{
+  font-size: 27px;
   text-decoration: none;
-  color: rgb(119, 7, 7);
+  color: black;
 }
 
-.txt_saxe:visited{
-  font-size: 40px;
+
+.txt_saxe{
+  padding-bottom: 10px;
+  border: 2px solid grey;
+  font-size: 27px;
+  display: inline-block;
+  background-color: rgba(70, 70, 70, 0.7);
+}
+
+.txt_saxe:hover{
+  padding-bottom: 10px;
+  border: 2px solid white;
+  font-size: 27px;
+  display: inline-block;
+  background-color: rgba(62, 121, 200, 0.63);
+  color: white;
+}
+
+.redir_saxe{
+  color: rgb(0, 37, 101);
+  text-decoration: none;
+}
+
+.redir_saxe:hover{
+  color: white;
   text-decoration: underline;
-  color: rgb(71, 23, 187);
+  text: bold;
 }
