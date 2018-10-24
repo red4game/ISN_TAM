@@ -1,9 +1,39 @@
+@font-face{
+    font-family: 'PlayfairDisplay-Regular';
+    src: url(Css/Font/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
 body{
-  background: linear-gradient(90deg, #AAA, #1cd3b6, #3dc312, #d1d81f, #e55a1c);
+    background: blue url(Css/wallpaper%20menu.jpg) no-repeat cover fixed ;
 }
 
 
+.axe_title{
+    font-family: 'PlayfairDisplay-Regular', serif ;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold ;
+}
 
+.axe_h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.axe_p1{
+    text-align: justify;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+
+.axe_p2{
+    text-align: justify;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
 
 .main_menu {
   background-image: url("menu_background.jpg");
@@ -55,7 +85,7 @@ body{
 
 .bande_head{
   height: 50px;
-  background: grey;
+  background: rgba(177, 213, 251, 1);
   display: flex;
   border: 4px solid black;
   border-radius: 40px;
@@ -150,6 +180,6 @@ body{
 .redir_saxe:hover{
   color: white;
   text-decoration: underline;
-  text: bold;
+  font-weight: bold;
   color: white;
 }
