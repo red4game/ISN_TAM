@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+   <LINK REL=StyleSheet HREF="cloud.css" TYPE="text/css" MEDIA=screen>
+   <LINK REL="StyleSheet" href="animate.css" TYPE="text/css" MEDIA=screen>
+   <meta charset="UTF-8">
+</head>
+
+<body>
+
+<div class="bande_head">
+    <div id="deroulant">
+        <nav class = "main_menu">
+          <div class="animated zoomInUp faster">
+          <ul class = "menu_initialisation">
+            <li class = "menu"><a class = "txt_axe">histoire et origine</a>
+              <ul class = "sub_menu">
+                <li class = "txt_saxe"><a href="sous_axe1.html" class="redir_saxe">sous axe 1</a></li>
+                <li class = "txt_saxe"><a href="sous_axe2.html" class="redir_saxe">sous axe 2</a></li>
+                <li class = "txt_saxe"><a href="sous_axe3.html" class="redir_saxe">sous axe 3</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class = "menu_initialisation">
+            <li class = "menu"><a class = "txt_axe">l'impact sur le travail</a>
+              <ul class = "sub_menu">
+                <li class = "txt_saxe"><a href="" class="redir_saxe">sous axe 1</a></li>
+                <li class = "txt_saxe"><a href="" class="redir_saxe">sous axe 2</a></li>
+                <li class = "txt_saxe"><a href="" class="redir_saxe">sous axe 3</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class = "menu_initialisation">
+            <li class = "menu"><a class = "txt_axe">aspects techniques</a>
+              <ul class = "sub_menu">
+                <li class = "txt_saxe"><a href="partie 2  descriptif technique.html" class="redir_saxe">définition</a></li>
+                <li class = "txt_saxe"><a href="partie 2  descriptif technique.html" class="redir_saxe">caractéristiques</a></li>
+                <li class = "txt_saxe"><a href="partie 2  descriptif technique.html" class="redir_saxe">videos</a></li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+        </nav>
+       <img src="navigation.jpg" class="oui"/>
+    </div>
+  <nav id= slider_title>
+    <MARQUEE behavior="slide" scrollamount="40" width="100%" height="50px"><H1 class=titre>le cloud</H1></MARQUEE>
+  </nav>
+</div>
+
+<div class=corps id=partie1SP1>
+  <h1 class=titres_plan>1/qu'est ce que le cloud computing</h1>
+
+  <p class = intro>
+    le cloud computing plus généralement est un service proposée par des entreprises ou mis en place par un particulier qui sert a accéder a des ressources informatique via le réseau, le service doit être à la demande, protégée avec des ressources partagées. le cloud se divise en trois catégories IaaS, PaaS et Saas qui influent tout les trois sur des ressources et des caractéristiques différentes. autrement dit Le cloud computing est une technologie permettant de délocaliser les données et les applications sur des infrastructures dématérialisées accessibles depuis Internet.
+  </p>
+  <img src="cloud_network.png" class="image" alt="reseau de cloud type">
+  <p class="sous_titre_image"> reseau type en formation de cloud.
+  <br>
+  <br>
+
+  <ol class="technique">
+    <li>Iaas</li>
+      <p class="technique">le service Iaas fournit une infrastructure informatique complête. l’entreprise qui propose ce service met a disposition un VPS ou serveur privée virtuelle muni d’une puissance de calcul (proco/ram) d’une conectivité (souvent une connexion gigabit) et un stockage (HDD/SSD)
+        pour de ce qui est de la partie software nottament l’os et la configuration du serveurs c’est au client de configurer cela à sa guise → c’est un système libre pour l’utilisateur mais peu accessible au public non informé.
+      </p>
+    <li>Paas</li>
+      <p class="technique">le plateforme as a service livre lui aussi un serveur virtuel privée mais la partie software, surtout au niveau de l’OS est géré par le vendeur. ainsi cette forme de cloud computing est plus accessible au public mais reste moins customisable, les taches sont limités et donc les types de Paas se multiplient en fonction du système d’exploitation (windows pour un ordi a distance / linux pour un serveur).</p>
+    <li>Saas</li>
+      <p class="technique">ici on parle moins d’un serveur privé virtuel, même si c’est toujours le cas, son utilisation est complêtement différente. en effet ce service sert a mettre en place une seul application pour la mettre directement sur le web, il n’y a ni configuration de l’os ou encore de toute application,  c’est une utilisation limitée du cloud sert souvent a augmenter l’accessibilité a une application grâce au web.
+attention : il faut différencier le service ASP, qui fait une communication entre une application et un serveur qui est totalement différente.  au niveau d’un service SaaS il n’y a aucune application mit physiquement sur le pc. il ne s’agituniquement qu’une connexion.ainsi pour le ASP on paye la liason entre le service et le serveur tandis que pour Saas on paye la consomation précise du service (puissance de calcul pour le deep learning par exemple).
+      </p>
+
+      <img src="cloud_models.png" class="image" alt="image du cloud microsoft azure">
+      <p class= sous_titre_image>image du cloud microsoft azure</p>
+  </ol>
+
+  <p class =technique>
+    autres services :<br>
+- DaaS : Desktop as a Service, qui correspond à un « Bureau virtuel hébergé » c’est-à-dire à l’externalisation d’une infrastructure de virtualisation de Bureau (VDI).
+<br>
+- STaaS : Storage as a Service, c’est-à-dire le stockage comme un service correspondant aux stockages en ligne de fichiers, comme par exemple Dropbox, Google Drive, SkyDrive ou encore Ubuntu One.
+<br>
+- NaaS : Network as a Service c’est-à-dire la fourniture de services réseaux.
+<br>
+- VPNaaS : VPN as a service pour les accès distants sécurisés VPN comme un service.
+<br>
+<a href="https://www.it-connect.fr/les-types-de-services-cloud/" class="sous_titre_image">source: https://www.it-connect.fr/les-types-de-services-cloud/</a>
+</p>
+
+
+<br>
+</div>
+
+
+
+<div class=corps id=partie1SP2>
+<h1 class=titres_plan>2/les caractéristiques du cloud</h1>
+
+<table class="technique" id ="tableau" border="1000">
+  <tr>
+    <td><span style="font-weight:700;">Ressources en libre-service </span><span>:</span></td>
+    <td>les ressources utilisées tel que la puissance de calcul ou l’espace de stockage doivent pouvoir être adapter en fonction du besoin de chaque utilisateur, <br>permet d’utiliser seulement le stricte nécessaire.</td>
+  </tr>
+  <tr>
+    <td><span style="font-weight:700">Ouverture </span>:</td>
+    <td>accessibiltié depuis internet, et cela depuis n’importe qu’elle plateforme. cela induit donc la création d’un site internet et d’une interface web ou encore d’une aplication ASP pour gérer le serveur (connexion VNC/RDP). enfin accessibilité depuis n’importe qu’elle OS (linux/windows/IOS)</td>
+  </tr>
+  <tr>
+    <td><span style="font-weight:700">Mutualisation </span>:</td>
+    <td>utilisation des ressources totales partagées entre plusieurs utilisateurs, tmême si un serveur correspond a une quantité de calcul impressionnante il faut repartir cette capacité entre plusieurs utilisateurs pour n’utiliser que le necessaire et ainsi permmetre l’utilisation par plusieurs personnes en simultané tout en gardant de la sécurité et gardée toute les informations privées entre chaques utilisateur.</td>
+  </tr>
+  <tr>
+    <td><span style="font-weight:700">Paiement à l’usage </span>:</td>
+    <td>en mesurant la puissance de calcul et de stockage utilisée cela permet ainsi de donner à l’utilisateur ce dont il a besoin mais aussi de mesurer équitablement le paiement en fonction de la ressource utilisé.</td>
+  </tr>
+</table>
+<br>
+<br>
+
+<h1 class=titres_plan>facteurs de production</h1>
+<ol class="technique">
+  <li>L’organisation et les compétences :</li>
+    <p class="technique">le sujet ici est de savoir pour l’entreprise si la réalisation technique n’est pas trop dure. → mettre en place un service cloud relève d’une preuve de grande stabilité de serveur mais aussi d’une infrastructure extrêment bien mise en place. de plus les applications d’accés type ASP ou web doivent suivre le service pour garder une qualité dans tout les service. → le temps de maintenance pour chaque service doit être prit en compte par l’entreprise en focntion des qualités et du nombre d’employés.
+    </p>
+  <li>La sécurité :</li>
+    <p class="technique">la sécurité pour le cloud est primordiale, c’est même la base, l’entreprise doit donc se munir d’un bon expert en sécurité informatique qui s’informe sur toute les nouvelles failles afin de minimiser toute crise au sein de l’entreprise et du cloud → la privacy des client est la chose la plus importante (sauf quand tu vend les information pour te faire du fric #google)</p>
+  <li>Le business case</li>
+    <p class="technique">
+> IaaS : Nombre de serveurs X temps d’utilisation
+<br>
+> PaaS : Nombre d’appels/requêtes (plus difficile à analyser)
+<br>
+> SaaS : Nombre d’utilisateurs
+<br>
+</ol>
+<br>
+<br>
+<h1 class=titres_plan>bénéfices majeurs : Trois grandes approches se dégagent suivant les objectifs recherchés.</h1>
+<p class = technique>
+<br>
+<br>
+  1. L’amélioration de l’efficacité opérationnelle avec un déplacement des applications dans le Cloud en mode IaaS. Cette transformation peut se faire en quelques secondes, alors qu’il faut des mois pour acquérir et mettre en place de nouveaux serveurs… la réduction des coûts est donc potentiellement très importante.
+<br>
+  2. L’augmentation de l’innovation différenciatrice à travers le développement de nouveaux services PaaS dans le Cloud, avec de l’IOT, de l’IA, etc.
+<br>
+3. L’optimisation de l’agilité « métier » avec l’élaboration et la mise à disposition de nouveaux services et de solutions dans les temps du marché.
+<br>
+<br>
+<img src=warning.png height="30px" width="30px">Quelle que soit l’approche, il convient également de prendre en compte la réduction des coûts, la simplicité et la transparence que le cloud peut apporter.
+</p>
+</div>
+
+
+<div class = "corps" id="partie1SP3">
+<h1 class=titres_plan>3/vidéo approfondie sur le sujet</h1>
+<div style="position:relative;height:0;padding-bottom:56.25%" class="video"><iframe src="https://www.youtube.com/embed/RwbIMBSr8o8?ecver=2" style="position:absolute;width:90%;height:70%;left:0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<h1 class= titres_plan>conclusion:</h1>
+<p class="technique">
+   le cloud computing se base donc sur un choix du service proposé mettant a disposition une puissance de calcul et de stockage pour un prix évalué en fonction du taux utilisé. ainsi cela permet aux personnes d’accéder a une plus grande puissance plus facilement même si il y a toujours un risque au niveau de la sécurité web. le cloud est donc en soit quelque chose d'assez facile à mettre en place mais il est plus dificile d'en assurer sa aqualité, ce qui est le principale objectif pour la entreprises. c'est nottament le cas de shadow qui propose tout un pc en cloud, basé sur un système de PAAS. <a href="https://shadow.tech" class="technique">shadow</a>
+</p>
+
+</div>
+
+<footer>
+
+</footer>
+</body>
