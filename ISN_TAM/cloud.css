@@ -141,7 +141,7 @@
 .redir_saxe:hover{
   color: white;
   text-decoration: underline;
-  text: bold;
+  font-weight: bold;
   color: white;
 }
 
